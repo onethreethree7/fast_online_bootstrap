@@ -1,3 +1,10 @@
+# Introduction
+
+Bootstrap is an excellent algorithm for computing the statistical error of an estimate in a wide variety of situations through the use of resampling. Usually this error analysis requires the sample to be entirely present in order to analyse it.
+
+This library uses Poisson statistics to perform an *online* error analysis, where each data value is only considered once. It is extremely light and allows for arbitrary sample sizes.
+
+
 # Usage
 
 ## Initialise your favourite RNG from `GSL`
