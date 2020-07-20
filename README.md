@@ -33,3 +33,6 @@ This only has to be done when the error is required, e.g for a visual output of 
 
 `b_clean(boot)`
 
+## Testing
+
+Compile the test program with `gcc -lm -lgsl -lgslblas test.c bootstap.c -o test`
