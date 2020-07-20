@@ -10,6 +10,6 @@ int main(int argc, char *argv[])
 	for(int i = 0; i < 7; i++)
 		b_add(boot, data[i]);
 	b_upderr(boot);
-	printf("%f, %f\n", boot->mean, boot->error);
+	printf("%f±%f\n", boot->mean, boot->error);
 	return 0;
 }
