@@ -12,7 +12,6 @@ typedef struct b_bin b_bin;
 struct b_instance {
     gsl_rng* rng;
     int num;
-    unsigned long long samples;
     b_bin* bins;
     double mean;
     double error;

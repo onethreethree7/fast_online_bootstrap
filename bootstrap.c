@@ -7,7 +7,6 @@ b_instance* b_setup(int num, gsl_rng* rng) {
 	inst->num = num;
 	inst->mean = 0;
 	inst->error = 0;
-	inst->samples = 0;
 	inst->bins = calloc(num, sizeof(b_bin));
 	return inst;
 }
@@ -26,7 +25,6 @@ void b_add(b_instance* inst, double val) {
 		mean += curbin->mean;
 	}
 	inst->mean = mean/inst->num;
-	inst->samples++;
 	return;
 }
 
