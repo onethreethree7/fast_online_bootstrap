@@ -36,5 +36,6 @@ This only has to be done when the error is required, e.g for a visual output of 
 ## Testing
 
 Compile the test/example program with `gcc -lm -lgsl -lgslblas test.c bootstap.c -o test`
-It finds the mean and error in the mean of the numbers `{3.0, 2.9, 3.1, 3.2, 3.3, 3.1, 2.8}`, and should output something like 3.057505±0.066662
+
+It finds the mean and error in the mean of the numbers `{3.0, 2.9, 3.1, 3.2, 3.3, 3.1, 2.8}`, and should output something like `3.057505±0.066662`
 
